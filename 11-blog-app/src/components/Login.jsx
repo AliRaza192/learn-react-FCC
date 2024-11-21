@@ -7,10 +7,10 @@ import { login as authLogin } from "../store/authSlice";
 import authService from "../appwrite/auth";
 import { Link } from "react-router-dom";
 import Button from "./Button";
-import Input from "./Input";
+import Input from "./Input"
 import Logo from "./Logo";
 
-function Login() {
+function LoginCom() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [error, setError] = useState("");
@@ -81,4 +81,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LoginCom;

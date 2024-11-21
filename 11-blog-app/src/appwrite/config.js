@@ -7,11 +7,10 @@ export class Service {
   bucket;
 
   constructor() {
-    this.client
-      .setEndpoint(Conf.appwriteURL)
-      .setProject(Conf.appwriteProjectID);
-    this.databases = new Databases(this.client);
-    this.bucket = new Storage(this.client);
+    this.client.setEndpoint(Conf.appwriteURL)
+        .setProject(Conf.appwriteProjectID)
+        this.databases = new Databases(this.client)
+        this.bucket = new Storage(this.client)
   }
 
   async getPost(slug) {

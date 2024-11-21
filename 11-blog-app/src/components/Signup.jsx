@@ -11,7 +11,7 @@ import Input from "./Input";
 import Logo from "./Logo";
 
 
-function Signup() {
+function SignupCom() {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const [error, setError] = useState("");
@@ -86,4 +86,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default SignupCom;

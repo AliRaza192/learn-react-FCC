@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import LoginCom from "../components/Login.jsx";
 
 function Login() {
   return (
-    <h1>
-      Login
-    </h1>
-  )
+    <div className="py-8">
+      <LoginComponent />
+    </div>
+  );
 }
 
-export default Login
+export default Login;
